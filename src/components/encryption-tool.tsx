@@ -228,7 +228,7 @@ export default function EncryptionTool() {
               onChange={(e) => setHillKey(e.target.value)}
             />
             <p className="text-sm text-muted-foreground mt-1">
-              Default key is "GYBNQKURP" which represents a 3x3 matrix
+              Default key is {"GYBNQKURP"} which represents a 3x3 matrix
             </p>
           </div>
         );
