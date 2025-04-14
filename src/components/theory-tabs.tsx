@@ -141,8 +141,9 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                   Lester S. Hill first described this cipher in the journal The
                   American Mathematical Monthly in 1929. It was one of the first
                   practical polygraphic ciphers that could operate on more than
-                  three symbols at once. Hill's work represented a significant
-                  advancement in the application of mathematics to cryptography.
+                  three symbols at once. {"Hill's"} work represented a
+                  significant advancement in the application of mathematics to
+                  cryptography.
                 </p>
                 <Alert>
                   <AlertCircle className="h-4 w-4" />
@@ -278,8 +279,8 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                 </Alert>
                 <h3 className="text-lg font-medium mt-4">Security Analysis</h3>
                 <p>
-                  RSA's security relies on the practical difficulty of factoring
-                  the product of two large prime numbers:
+                  {"RSA's"} security relies on the practical difficulty of
+                  factoring the product of two large prime numbers:
                 </p>
                 <ul className="list-disc list-inside space-y-1 mt-2">
                   <li>
@@ -291,8 +292,8 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                     bits (RSA-250)
                   </li>
                   <li>
-                    Quantum computers using Shor's algorithm could theoretically
-                    break RSA
+                    Quantum computers using {"Shor's"} algorithm could
+                    theoretically break RSA
                   </li>
                 </ul>
               </>
@@ -349,7 +350,7 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                 <Alert>
                   <AlertCircle className="h-4 w-4" />
                   <AlertTitle>
-                    Example Key Square (with keyword "KEYWORD")
+                    Example Key Square (with keyword {"KEYWORD"})
                   </AlertTitle>
                   <AlertDescription>
                     <pre className="font-mono mt-2">
@@ -386,8 +387,8 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                     Digraph frequency analysis can still be used to break it
                   </li>
                   <li>
-                    Known patterns in language (like common digraphs "TH", "ER",
-                    "ON") can help cryptanalysts
+                    Known patterns in language (like common digraphs {"TH"},{" "}
+                    {"ER"},{"ON"}) can help cryptanalysts
                   </li>
                   <li>
                     Modern computing power makes brute force attacks feasible
@@ -402,7 +403,7 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                   The Rail Fence Cipher (also called the Zigzag Cipher) is a
                   form of transposition cipher that gets its name from the way
                   in which it is encoded. The plaintext is written downwards and
-                  diagonally on successive "rails" of an imaginary fence, then
+                  diagonally on successive {"rails"} of an imaginary fence, then
                   read off horizontally.
                 </p>
                 <h3 className="text-lg font-medium mt-4">Historical Context</h3>
@@ -430,13 +431,13 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                   <AlertCircle className="h-4 w-4" />
                   <AlertTitle>Example (with 3 rails)</AlertTitle>
                   <AlertDescription>
-                    <p className="mt-2">Plaintext: "HELLO WORLD"</p>
+                    <p className="mt-2">Plaintext: {"HELLO WORLD"}</p>
                     <pre className="font-mono mt-2">
                       H . . . O . . . R . .<br />. E . L . W . O . L .<br />. .
                       L . . . D . . . .<br />
                     </pre>
                     <p className="mt-2">
-                      Reading off row by row gives the ciphertext: "HORELWOLD"
+                      Reading off row by row gives the ciphertext: {"HORELWOLD"}
                     </p>
                   </AlertDescription>
                 </Alert>
@@ -453,7 +454,7 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                     plaintext
                   </li>
                   <li>
-                    It doesn't provide any confusion, only diffusion through
+                    It {"doesn't"} provide any confusion, only diffusion through
                     transposition
                   </li>
                 </ul>
@@ -528,7 +529,7 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                   </li>
                   <li>The key must be at least as long as the plaintext</li>
                   <li>
-                    Each key must be used exactly once (hence "One-Time Pad")
+                    Each key must be used exactly once (hence {"One-Time Pad"})
                   </li>
                   <li>The key must be kept completely secret</li>
                 </ul>
@@ -562,7 +563,7 @@ const TheoryTabs: React.FC<Props> = ({ selectedAlgorithm }) => {
                     breaks security
                   </li>
                   <li>
-                    It's vulnerable to known-plaintext attacks if the key is
+                    {"It's"} vulnerable to known-plaintext attacks if the key is
                     reused
                   </li>
                 </ul>
