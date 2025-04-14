@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔐 Zypher
 
-## Getting Started
+**Zypher** is a web-based encryption and decryption tool supporting multiple classical and modern cryptographic algorithmsIt provides an intuitive interface for experimenting with various ciphers, making it ideal for educational purposes and cryptography enthusiasts
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Multiple Cipher Support**:Implementations of Caesar, Playfair, Hill, Rail Fence, Vernam (One-Time Pad), and RSA algorithms
+- **Interactive UI**:User-friendly interface for inputting text, selecting algorithms, and viewing results
+- **Key Management**:Generate and manage keys for applicable algorithms directly within the app
+- **Real-time Feedback**:Instant encryption/decryption results with error handling and notifications
+- **Educational Insights**:Integrated theory tabs providing explanations for each algorithm
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- \*_Framework_: [Next.js](https://nextjs.or/)
+- \*_Language_: TypeScrpt
+- \*_UI Components_: Custom components with Tailwind SS
+- \*_Icons_: [Lucide](https://lucide.de/)
+- \*_Notifications_: [Sonner](https://sonner.de/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Project Structure
 
-## Learn More
+- `src/` - Contains the main application source cde.
+- `components/` - Reusable UI componets.
+- `lib/encryption/` - Implementation of encryption algoritms.
+- `app/` - Next.js application pages and routng.
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Select an Algorith**: Choose from the dropdown enu.
+2. **Enter Tex**: Input the plaintext or cipherext.
+3. **Configure Parameter**: Provide necessary keys or settings specific to the chosen algorthm.
+4. **Encrypt/Decryp**: Click the corresponding button to process the ext.
+5. **View Result**: The output will be displayed in the designated rea.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📚 Learn More
 
-## Deploy on Vercel
+- [Next.js Documentation](https://nextjs.org/dos) - Explore Next.js features an API.
+- [Learn Next.js](https://nextjs.org/lean) - Interactive tutorial for Net.js.
+- [TypeScript Documentation](https://www.typescriptlang.org/doc/) - Understand TypeScript fundametals.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributions are wecome! If you'd like to enhance Zypher, please fork the repository and submit a pull rquest.

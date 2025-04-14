@@ -197,8 +197,6 @@ export default function EncryptionTool() {
     }
   };
 
-  // -- Add renderAlgorithmParams & JSX Below --
-
   // Render the algorithm-specific parameters
   const renderAlgorithmParams = () => {
     switch (selectedAlgorithm) {
