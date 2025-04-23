@@ -19,13 +19,7 @@ import {
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import {
-  ArrowDownUp,
-  ArrowRightLeft,
-  KeyRound,
-  Lock,
-  Unlock,
-} from "lucide-react";
+import { ArrowRightLeft, KeyRound, Lock, Unlock } from "lucide-react";
 import { toast } from "sonner";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
