@@ -19,7 +19,13 @@ import {
 } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
-import { ArrowDownUp, KeyRound, Lock, Unlock } from "lucide-react";
+import {
+  ArrowDownUp,
+  ArrowRightLeft,
+  KeyRound,
+  Lock,
+  Unlock,
+} from "lucide-react";
 import { toast } from "sonner";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -353,7 +359,7 @@ export default function EncryptionTool() {
                   onClick={handleSwap}
                   className="my-2"
                 >
-                  <ArrowDownUp className="h-4 w-4" />
+                  <ArrowRightLeft className="h-4 w-4" />
                 </Button>
                 <Button
                   onClick={handleProcessText}
